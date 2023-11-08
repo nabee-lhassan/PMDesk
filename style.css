@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Comfortaa', sans-serif;
   }
   
   a {
@@ -16,6 +19,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    gap: 24px;
   }
   
   header  a.navbar-brand img {
@@ -25,6 +29,9 @@
     font-size: 18px;
     font-weight: 600;
   }
+  header .nav-link:focus, .nav-link:hover {
+    color: rgb(250 164 26);
+}
   
   .div-btn {
     width: 196px;
@@ -37,6 +44,7 @@
     background-color: rgb(250 164 26);
     color: white;
     border: none;
+    font-size: 14px;
   }
   
   .sec {
@@ -67,7 +75,7 @@
 .banner .div-banner-content .image-1{
     width: 100%;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
   .banner .div-image-main{
@@ -191,7 +199,7 @@ filter: grayscale(1);
   }
   .sec-2 h3 {
     font-size: 55px;
-    color: black;
+    color: #faa41a;
   }
   .sec-2 h4 {
     margin-bottom: 6%;
@@ -205,7 +213,11 @@ filter: grayscale(1);
     width: -moz-fit-content;
     width: fit-content;
     font-weight: 600;
+    color: #faa41a;
+
   }
+
+
   .sec-2 .div-btn-animated a .div-arrow-animation {
     background-image: url(./image/Frame\ 1686556216\ \(1\).png);
     background-size: cover;
@@ -214,8 +226,8 @@ filter: grayscale(1);
     height: 25px;
     transition: 0.5s;
     background-position: right;
-    filter: brightness(0) saturate(100%) invert(0%) sepia(4%) saturate(7500%) hue-rotate(244deg) brightness(93%) contrast(104%);
-  
+
+    filter: brightness(0) saturate(100%) invert(62%) sepia(90%) saturate(528%) hue-rotate(346deg) brightness(100%) contrast(97%);
 }
 
 
@@ -276,7 +288,8 @@ filter: grayscale(1);
   }
   
   .sec-3 .div-testimonial .div-quote-top  img{
-    filter: brightness(0) saturate(100%) invert(0%) sepia(4%) saturate(7500%) hue-rotate(244deg) brightness(93%) contrast(104%);
+    filter: brightness(0) saturate(100%) invert(62%) sepia(90%) saturate(528%) hue-rotate(346deg) brightness(100%) contrast(97%);
+
   }
   .sec-3 .div-testimonial .div-quote-bottom {
     text-align: end;
@@ -285,7 +298,8 @@ filter: grayscale(1);
   }
   
   .sec-3 .div-testimonial .div-quote-bottom img{
-    filter: brightness(0) saturate(100%) invert(0%) sepia(4%) saturate(7500%) hue-rotate(244deg) brightness(93%) contrast(104%);
+  
+    filter: brightness(0) saturate(100%) invert(62%) sepia(90%) saturate(528%) hue-rotate(346deg) brightness(100%) contrast(97%);
   }
   
   .sec-4 {
@@ -336,7 +350,7 @@ filter: grayscale(1);
     font-size: 50px;
   }
   .sec-5 .col-lg-6 .content h2 span {
-    color: black;
+    color:#faa41a;
   }
   .sec-5 .col-lg-6 .content .div-btn {
     display: flex;
@@ -465,6 +479,7 @@ background-color: black;
   footer .inner-footer-nav {
     list-style: none;
     padding: 0;
+    line-height: 40px;
   }
   footer .inner-footer-nav li a {
     color: white;
